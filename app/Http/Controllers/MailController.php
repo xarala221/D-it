@@ -28,7 +28,7 @@ class MailController extends Controller {
       });
       echo "HTML Email Sent. Check your inbox.";
    }
-   public function attachment_email(){
+  /* public function attachment_email(){
       $data = array('name'=>"Ousseynou Diop");
       Mail::send('mail', $data, function($message) {
          $message->to('djweuze@gmail.com', 'Tutorials Point')->subject
@@ -38,5 +38,5 @@ class MailController extends Controller {
          $message->from('mstspr1155@gmail.com','Mst Spr');
       });
       echo "Email Sent with attachment. Check your inbox.";
-   }
+   }*/
 }
